@@ -4,7 +4,7 @@ import Tilt from "react-parallax-tilt";
 export default function Technology() {
   return (
     <div>
-      <p className="text-4xl text-center text-white">Technology I know</p>
+      <p className="text-4xl text-center text-accent">Technology I know</p>
       <p className="text-center text-[#E5E7EB] mt-3">
         As a passionate Frontend Developer, I have experience working with
         modern <br /> web technologies to build interactive and responsive
@@ -13,7 +13,7 @@ export default function Technology() {
       <p className="text-2xl font-semibold text-white mt-12 mb-6">
         Front-End Technology_
       </p>
-      <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-3 px-2 md:px-8 lg:px-12">
+      <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-3 px-2 md:px-8 lg:px-0">
         {/* 1 */}
         <Tilt>
           <div className="w-[200px] h-[180px] perspective-[1000px] relative">
@@ -139,7 +139,7 @@ export default function Technology() {
       <p className="text-2xl font-semibold text-white mt-12 mb-6">
         Back-End Technology_
       </p>
-      <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-1 px-2">
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-3 px-2 md:px-8 lg:px-12">
         {/* 1 */}
         <Tilt>
           <div className="w-[200px] h-[180px] perspective-[1000px] relative">
@@ -197,7 +197,7 @@ export default function Technology() {
       <p className="text-2xl font-semibold text-white mt-12 mb-6">
         Others Technology_
       </p>
-      <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-1 px-2">
+      <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-1 md:px-8 lg:px-10 px-1">
         {/* 1 */}
         <Tilt>
           <div className="w-[200px] h-[180px] perspective-[1000px] relative">

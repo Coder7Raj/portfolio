@@ -7,7 +7,7 @@ export default function Projects() {
 
   return (
     <div>
-      <p className="text-center text-white text-3xl font-bold">My Projects</p>
+      <p className="text-center text-accent text-3xl font-bold">My Projects</p>
       <p className="text-white text-center mt-2">
         Welcome to my project showcase! Here, you'll find a collection of web
         applications and creative solutions <br /> I've built using technologies
@@ -36,7 +36,9 @@ export default function Projects() {
           />
         </div>
         <div>
-          <p className="text-white text-2xl">MOTORVISTA</p>
+          <p className="text-white text-2xl">
+            MOTORVISTA - A Car Rental Application
+          </p>
           <p className="text-[#E5E7EB] mt-2 lg:w-[50%] md:w-[70%] w-full">
             MotorVista is an innovative car rental platform designed to offer
             users an easy and seamless way to rent vehicles for both short and

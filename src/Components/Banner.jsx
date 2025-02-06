@@ -2,10 +2,12 @@ import React from "react";
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
 import Tilt from "react-parallax-tilt";
-import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 
 export default function Banner() {
+  const openBlank = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
   return (
     <div className="flex flex-col-reverse items-center md:flex-row lg:flex-row gap-4 px-3">
       <div className="md:w-[55%] lg:w-[60%] w-full flex flex-col gap-4 md:pt-4 pt-6 lg:pt-0 lg:pr-6">
@@ -48,12 +50,24 @@ export default function Banner() {
           </button>
 
           <div className="flex gap-2 items-center">
-            <Link className="flex items-center justify-center w-9 h-9 border border-accent rounded-full text-accent text-base hover:bg-accent hover:text-black hover:transition-all duration-500">
+            <button
+              onClick={() =>
+                openBlank(
+                  "https://www.linkedin.com/in/owarasur-rahman-raj-49159b329/"
+                )
+              }
+              className="flex items-center justify-center w-9 h-9 border border-accent rounded-full text-accent text-base hover:bg-accent hover:text-black hover:transition-all duration-500"
+            >
               <FaLinkedinIn />
-            </Link>
-            <Link className="flex items-center justify-center w-9 h-9 border border-accent rounded-full text-accent text-base hover:bg-accent hover:text-black hover:transition-all duration-500">
+            </button>
+            <button
+              onClick={() =>
+                openBlank("https://www.facebook.com/owarasur.rahman.raj.2024")
+              }
+              className="flex items-center justify-center w-9 h-9 border border-accent rounded-full text-accent text-base hover:bg-accent hover:text-black hover:transition-all duration-500"
+            >
               <FaFacebook />
-            </Link>
+            </button>
           </div>
         </div>
       </div>
