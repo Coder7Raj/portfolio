@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div>
-      <div className="navbar text-white">
+      <div className="navbar text-white flex justify-between">
         <div className="navbar-start">
           <div className="dropdown">
             <div
@@ -45,26 +45,34 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <a className="btn btn-ghost text-xl px-0 lg:px-2 md:px-2">daisyUI</a>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-end hidden md:flex lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link>f</Link>
+              <Link>first</Link>
             </li>
             <li>
-              <Link>f</Link>
+              <Link>second</Link>
             </li>{" "}
             <li>
-              <Link>f</Link>
+              <Link>theird</Link>
             </li>{" "}
             <li>
-              <Link>f</Link>
+              <Link>fourth</Link>
             </li>
           </ul>
+
+          <div>
+            <button className="btn hover:bg-accent bg-accent outline-none border-none rounded-r-3xl rounded-l-3xl">
+              Hire me
+            </button>
+          </div>
         </div>
-        <div className="navbar-end">
-          <a className="btn">Button</a>
+        <div className="md:hidden lg:hidden flex justify-end items-center">
+          <button className="btn btn-outline bg-accent hover:bg-accent rounded-r-3xl rounded-l-3xl">
+            Hire me
+          </button>
         </div>
       </div>
     </div>

@@ -14,9 +14,15 @@ export default function Home() {
       <section className="mt-12">
         <Banner></Banner>
       </section>
-      <Technology></Technology>
-      <Projects></Projects>
-      <About></About>
+      <section className="mt-12">
+        <Technology></Technology>
+      </section>
+      <section className="mt-12">
+        <Projects></Projects>
+      </section>
+      <section className="mt-12">
+        <About></About>
+      </section>
     </div>
   );
 }
