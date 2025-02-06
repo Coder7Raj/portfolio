@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
   return (
@@ -32,36 +32,42 @@ export default function Navbar() {
               className="menu menu-sm dropdown-content bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <Link>f</Link>
+                <Link to="technology" smooth={true} duration={1000}>
+                  Technology
+                </Link>
               </li>
               <li>
-                <Link>f</Link>
-              </li>{" "}
+                <Link to="projects" smooth={true} duration={1000}>
+                  Projects
+                </Link>
+              </li>
               <li>
-                <Link>f</Link>
-              </li>{" "}
-              <li>
-                <Link>f</Link>
+                <Link to="contact" smooth={true} duration={1000}>
+                  ContactMe
+                </Link>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-accent text-2xl px-0 lg:px-2 md:px-2">
+          <p className="btn btn-ghost text-accent text-2xl px-0 lg:px-2 md:px-2">
             Raj_
-          </a>
+          </p>
         </div>
         <div className="navbar-end hidden md:flex lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link>first</Link>
+              <Link to="technology" smooth={true} duration={1000}>
+                Technology
+              </Link>
             </li>
             <li>
-              <Link>second</Link>
+              <Link to="projects" smooth={true} duration={1000}>
+                Projects
+              </Link>
             </li>{" "}
             <li>
-              <Link>theird</Link>
-            </li>{" "}
-            <li>
-              <Link>fourth</Link>
+              <Link to="contact" smooth={true} duration={1000}>
+                ContactMe
+              </Link>
             </li>
           </ul>
 
