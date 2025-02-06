@@ -14,10 +14,10 @@ export default function Home() {
       <section className="mt-12">
         <Banner></Banner>
       </section>
-      <section className="mt-32">
+      <section className="mt-32 px-1">
         <Technology></Technology>
       </section>
-      <section className="mt-12">
+      <section className="mt-32 px-1">
         <Projects></Projects>
       </section>
       <section className="mt-12">

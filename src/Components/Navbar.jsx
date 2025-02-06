@@ -45,7 +45,9 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl px-0 lg:px-2 md:px-2">daisyUI</a>
+          <a className="btn btn-ghost text-accent text-2xl px-0 lg:px-2 md:px-2">
+            Raj_
+          </a>
         </div>
         <div className="navbar-end hidden md:flex lg:flex">
           <ul className="menu menu-horizontal px-1">
