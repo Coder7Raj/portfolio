@@ -1,6 +1,7 @@
 import React from "react";
 import About from "./About";
 import Banner from "./Banner";
+import History from "./History";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
 import Technology from "./Technology";
@@ -13,6 +14,9 @@ export default function Home() {
       </section>
       <section className="mt-12">
         <Banner></Banner>
+      </section>
+      <section className="mt-32">
+        <History></History>
       </section>
       <section className="mt-32 px-1">
         <Technology></Technology>

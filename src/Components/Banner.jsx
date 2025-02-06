@@ -18,9 +18,9 @@ export default function Banner() {
         <p className="text-xl font-bold text-accent">
           <TypeAnimation
             sequence={[
-              "Frontend Developer",
+              "Frontend Developer_",
               1500,
-              "Junior MERN Stack Developer",
+              "Junior MERN Stack Developer_",
               1500,
             ]}
             wrapper="span"
@@ -34,8 +34,8 @@ export default function Banner() {
         </p>
         <p className="text-[#E5E7EB]">
           I'm a Front-end developer specializing in creating clean and
-          easy-to-use websites, and I'm also a full-stack developer using the
-          MERN stack. I'm passionate about learning new tools and constantly
+          easy-to-use websites, and I'm also a junior full-stack developer using
+          the MERN stack. I'm passionate about learning new tools and constantly
           improving my skills to build better projects for users. I'm a
           hardworking individual dedicated to delivering high-quality work,
           taking pride in solving problems, and always striving to improve with

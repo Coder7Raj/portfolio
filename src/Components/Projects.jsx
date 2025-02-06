@@ -9,9 +9,11 @@ export default function Projects() {
     <div>
       <p className="text-center text-white text-3xl font-bold">My Projects</p>
       <p className="text-white text-center mt-2">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-        <br />
-        numquam minima optio amet nihil nisi!
+        Welcome to my project showcase! Here, you'll find a collection of web
+        applications and creative solutions <br /> I've built using technologies
+        like React, Tailwind CSS, and JavaScript. Each project <br /> reflects
+        my journey in web development, focusing on clean design, functionality,
+        and user experience.
       </p>
       {/* 1 */}
       <div className="mt-16">
