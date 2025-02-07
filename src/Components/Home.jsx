@@ -1,4 +1,5 @@
 import React from "react";
+import AboutMe from "./AboutMe";
 import Banner from "./Banner";
 import ContactMe from "./ContactMe";
 import History from "./History";
@@ -23,6 +24,9 @@ export default function Home() {
       </section>
       <section className="mt-32 px-1">
         <Projects></Projects>
+      </section>
+      <section className="mt-32 px-1">
+        <AboutMe></AboutMe>
       </section>
       <section className="mt-32 mb-6 px-1">
         <ContactMe></ContactMe>

@@ -46,6 +46,11 @@ export default function Navbar() {
                   ContactMe
                 </Link>
               </li>
+              <li>
+                <Link to="aboutMe" smooth={true} duration={1000}>
+                  aboutMe
+                </Link>
+              </li>
             </ul>
           </div>
           <p className="btn btn-ghost text-accent text-2xl px-0 lg:px-2 md:px-2">
@@ -63,10 +68,15 @@ export default function Navbar() {
               <Link to="projects" smooth={true} duration={1000}>
                 Projects
               </Link>
-            </li>{" "}
+            </li>
             <li>
               <Link to="contact" smooth={true} duration={1000}>
                 ContactMe
+              </Link>
+            </li>
+            <li>
+              <Link to="aboutMe" smooth={true} duration={1000}>
+                aboutMe
               </Link>
             </li>
           </ul>
