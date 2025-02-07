@@ -2,6 +2,7 @@ import React from "react";
 import AboutMe from "./AboutMe";
 import Banner from "./Banner";
 import ContactMe from "./ContactMe";
+import Education from "./Education";
 import History from "./History";
 import Navbar from "./Navbar";
 import Projects from "./Projects";
@@ -24,6 +25,9 @@ export default function Home() {
       </section>
       <section className="mt-32 px-1">
         <Projects></Projects>
+      </section>
+      <section className="mt-32 px-1">
+        <Education></Education>
       </section>
       <section className="mt-32 px-1">
         <AboutMe></AboutMe>

@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div>
       <div className="navbar text-white flex justify-between">
-        <div className="navbar-start">
+        <div className="navbar-start lg:w-[40%] md:w-[20%]">
           <div className="dropdown">
             <div
               tabIndex={0}
@@ -32,23 +32,53 @@ export default function Navbar() {
               className="menu menu-sm dropdown-content bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow"
             >
               <li>
-                <Link to="technology" smooth={true} duration={1000}>
+                <Link
+                  className="hover:text-accent hover:font-semibold"
+                  to="technology"
+                  smooth={true}
+                  duration={1000}
+                >
                   Technology
                 </Link>
               </li>
               <li>
-                <Link to="projects" smooth={true} duration={1000}>
+                <Link
+                  className="hover:text-accent hover:font-semibold"
+                  to="projects"
+                  smooth={true}
+                  duration={1000}
+                >
                   Projects
                 </Link>
               </li>
               <li>
-                <Link to="contact" smooth={true} duration={1000}>
-                  ContactMe
+                <Link
+                  className="hover:text-accent hover:font-semibold"
+                  to="education"
+                  smooth={true}
+                  duration={1000}
+                >
+                  Education
                 </Link>
               </li>
               <li>
-                <Link to="aboutMe" smooth={true} duration={1000}>
+                <Link
+                  className="hover:text-accent hover:font-semibold"
+                  to="aboutMe"
+                  smooth={true}
+                  duration={1000}
+                >
                   aboutMe
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="hover:text-accent hover:font-semibold"
+                  to="contact"
+                  smooth={true}
+                  duration={1000}
+                >
+                  Contact Me
                 </Link>
               </li>
             </ul>
@@ -57,26 +87,57 @@ export default function Navbar() {
             Raj_
           </p>
         </div>
-        <div className="navbar-end hidden md:flex lg:flex">
+        <div className="navbar-end hidden md:flex lg:flex lg:w-[60%] md:w-[80%]">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <Link to="technology" smooth={true} duration={1000}>
+              <Link
+                className="hover:text-accent hover:font-semibold"
+                to="technology"
+                smooth={true}
+                duration={1000}
+              >
                 Technology
               </Link>
             </li>
+
             <li>
-              <Link to="projects" smooth={true} duration={1000}>
+              <Link
+                className="hover:text-accent hover:font-semibold"
+                to="projects"
+                smooth={true}
+                duration={1000}
+              >
                 Projects
               </Link>
             </li>
             <li>
-              <Link to="contact" smooth={true} duration={1000}>
-                ContactMe
+              <Link
+                className="hover:text-accent hover:font-semibold"
+                to="education"
+                smooth={true}
+                duration={1000}
+              >
+                Education
               </Link>
             </li>
             <li>
-              <Link to="aboutMe" smooth={true} duration={1000}>
-                aboutMe
+              <Link
+                className="hover:text-accent hover:font-semibold"
+                to="aboutMe"
+                smooth={true}
+                duration={1000}
+              >
+                About Me
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="hover:text-accent hover:font-semibold"
+                to="contact"
+                smooth={true}
+                duration={1000}
+              >
+                Contact Me
               </Link>
             </li>
           </ul>

@@ -12,7 +12,7 @@ import { Element } from "react-scroll";
 export default function AboutMe() {
   return (
     <Element name="aboutMe">
-      <div id="about" className="text-white flex justify-center items-center">
+      <div className="text-white flex justify-center items-center">
         <div className="rounded-lg shadow-lg">
           <h2 className="text-3xl text-center font-bold text-accent mb-4">
             About Me

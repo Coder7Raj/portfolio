@@ -1,7 +1,16 @@
 import React from "react";
-import { FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaFacebook,
+  FaLinkedinIn,
+  FaMapMarkerAlt,
+  FaPhone,
+} from "react-icons/fa";
 import { Element } from "react-scroll";
 export default function ContactMe() {
+  const openBlank = (url) => {
+    window.open(url, "_blank", "noopener,noreferrer");
+  };
   return (
     <Element name="contact">
       <div className="py-4">
@@ -71,6 +80,26 @@ export default function ContactMe() {
             <div className="flex items-center gap-4">
               <FaMapMarkerAlt className="text-accent" size={20} />
               <p className="text-white">Dinajpur,Dhaka</p>
+            </div>
+            <div className="flex gap-2 items-center">
+              <button
+                onClick={() =>
+                  openBlank(
+                    "https://www.linkedin.com/in/owarasur-rahman-raj-49159b329/"
+                  )
+                }
+                className="flex items-center justify-center w-9 h-9 border border-accent rounded-full text-accent text-base hover:bg-accent hover:text-black hover:transition-all duration-500"
+              >
+                <FaLinkedinIn />
+              </button>
+              <button
+                onClick={() =>
+                  openBlank("https://www.facebook.com/owarasur.rahman.raj.2024")
+                }
+                className="flex items-center justify-center w-9 h-9 border border-accent rounded-full text-accent text-base hover:bg-accent hover:text-black hover:transition-all duration-500"
+              >
+                <FaFacebook />
+              </button>
             </div>
           </div>
         </div>
