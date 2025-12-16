@@ -35,13 +35,7 @@ export default function Banner() {
           />
         </p>
         <p className="text-[#E5E7EB]">
-          I'm a Front-end developer specializing in creating clean and
-          easy-to-use websites, and I'm also a junior full-stack developer using
-          the MERN stack. I'm passionate about learning new tools and constantly
-          improving my skills to build better projects for users. I'm a
-          hardworking individual dedicated to delivering high-quality work,
-          taking pride in solving problems, and always striving to improve with
-          every project.
+          Hi, I'm Raj. I'm pursuing a Diploma in Computer Science and passionate about software development. I enjoy building web applications, solving coding challenges, and continuously improving my skills to become a software engineer.Currently, I'm focused on advancing my JavaScript expertise, practicing problem solving, and strengthening my software engineering fundamentals.
         </p>
 
         <div className="flex items-center gap-2">
