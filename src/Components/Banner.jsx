@@ -24,6 +24,10 @@ export default function Banner() {
               1500,
               "Junior MERN Stack Developer_",
               1500,
+              "Aspiring Software Engineering_",
+              1500,
+              "Problem Solver_",
+              1500,
             ]}
             wrapper="span"
             speed={50}
