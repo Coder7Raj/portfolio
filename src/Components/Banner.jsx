@@ -15,7 +15,7 @@ export default function Banner() {
           Hello I'm
         </p>
         <p className="lg:text-5xl md:text-4xl text-3xl font-semibold text-white">
-          Owarasur Rahman Raj
+          Md. Owarasur Rahman Raj
         </p>
         <p className="text-xl font-bold text-accent">
           <TypeAnimation

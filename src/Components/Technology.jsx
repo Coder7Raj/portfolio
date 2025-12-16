@@ -196,6 +196,47 @@ export default function Technology() {
 
           {/*  */}
         </div>
+        {/*  */}
+        <p className="text-2xl font-semibold text-white mt-12 mb-6">
+          Programming Languages_
+        </p>
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-1 md:px-8 lg:px-10 px-1">
+            {/* 1 */}
+          <Tilt>
+            <div className="w-[200px] h-[180px] perspective-[1000px] relative">
+              {/* Top-right text */}
+              <p className="absolute top-2 right-2 text-sm font-semibold text-white bg-black px-2 py-1 rounded-r-lg rounded-l-lg z-10">
+                C
+              </p>
+
+              <div className="relative rounded-2xl group transition-all border border-accent cursor-pointer dark:text-white bg-black hover:bg-accent hover:bg-opacity-35 flex justify-center p-3 overflow-hidden">
+                <img
+                  className="p-6 group-hover:animate-bounce size-[150px] transition-all"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSFLqWlRt_qoyK4ZMYd67pwjuPwXMQlaCRcg&s"
+                  alt="C"
+                />
+              </div>
+            </div>
+          </Tilt>
+          {/* 2 */}
+          <Tilt>
+            <div className="w-[200px] h-[180px] perspective-[1000px] relative">
+              {/* Top-right text */}
+              <p className="absolute top-2 right-2 text-sm font-semibold text-white bg-black px-2 py-1 rounded-r-lg rounded-l-lg z-10">
+                C++
+              </p>
+
+              <div className="relative rounded-2xl group transition-all border border-accent cursor-pointer dark:text-white bg-black hover:bg-accent hover:bg-opacity-35 flex justify-center p-3 overflow-hidden">
+                <img
+                  className="p-6 group-hover:animate-bounce size-[150px] transition-all"
+                  src="https://play-lh.googleusercontent.com/9ckkaKXF1WwUWJavcd8C3i7V2XHLuL7thgNrQXMVi0JLH1U1d-WV54_-HQgLEcFXqH4"
+                  alt=""
+                />
+              </div>
+            </div>
+          </Tilt>
+        </div>
+        {/*  */}
         <p className="text-2xl font-semibold text-white mt-12 mb-6">
           Others Technology_
         </p>
